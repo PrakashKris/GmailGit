@@ -20,7 +20,7 @@ public void i_go_to_HDFC_Bank_website() {
 @Then("I should be on HDFC NetBanking page")
 public void i_should_be_on_HDFC_NetBanking_page() {
  Assert.assertTrue(driver.getTitle().contains("HDFC Bank: Personal Banking Services")); 
- driver.quit();
+ //driver.quit();
 }
 
 
